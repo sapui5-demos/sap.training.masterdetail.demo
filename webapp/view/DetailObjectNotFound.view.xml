@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+          controllerName="sap.training.masterdetail.controller.DetailObjectNotFound">
+	<MessagePage
+			id="page"
+			title="{i18n>detailTitle}"
+			text="{i18n>noObjectFoundText}"
+			description=""
+			showNavButton="{device>/system/phone}"
+			navButtonPress="onNavBack">
+	</MessagePage>
+</mvc:View>
+
